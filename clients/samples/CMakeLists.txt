@@ -2,7 +2,7 @@
 # Copyright 2016-2020 Advanced Micro Devices, Inc.
 # ########################################################################
 
-get_target_property( HIPHCC_LOCATION hip::hip_hcc IMPORTED_LOCATION_RELEASE )
+get_target_property( HIPHCC_LOCATION hip::device IMPORTED_LOCATION_RELEASE )
 
 set( rocblas_samples_common ../common/utility.cpp )
 

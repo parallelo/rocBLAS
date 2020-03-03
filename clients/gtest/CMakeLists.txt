@@ -198,7 +198,7 @@ else()
     endif()
 endif()
 
-get_target_property( HIPHCC_LOCATION hip::hip_hcc IMPORTED_LOCATION_RELEASE )
+get_target_property( HIPHCC_LOCATION hip::device IMPORTED_LOCATION_RELEASE )
 
 if( CUDA_FOUND )
   target_include_directories( rocblas-test
